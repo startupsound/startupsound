@@ -1,0 +1,15 @@
+
+body {
+	font-family: 'Oswald', sans-serif;
+	padding:5%;
+}
+
+a:link {
+	font-color:#ccc;
+	text-decoration:none;
+}
+
+a:visited {
+	font-color:#ccc;
+	text-decoration:none;
+}
