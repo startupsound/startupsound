@@ -1,15 +1,84 @@
-
 body {
-	font-family: 'Oswald', sans-serif;
-	padding:5%;
+    font-family: 'Droid Sans', 'Segoe', 'Arial';
+    font-weight: lighter;
+    background-color: #524040;
+    background-image: url("img/low-contrast-linen.png");
+    color: #efebde;
+    display: flex;
+    justify-content: center;
+    min-width: 980px;
+}
+
+.size-setter {
+    min-width: 1000px;
+    margin: 20px;
+}
+
+.main-container {
+    background-color: #69615b;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.main-container .content {
+    padding: 20px;
+}
+
+ul.nav-column li:first-child {
+    border-top-left-radius: 4px;
+}
+
+ul.nav-column {
+    align-self: stretch;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    background-color: #111;
+}
+
+ul.nav-column li i {
+    font-size: 12px;
+}
+
+ul.nav-column li.selected {
+    background-color: #826a58;
+    border-right: 1px solid black;
+    cursor: default;
+}
+
+ul.nav-column li:not(.selected):hover {
+    background-color: #666;
+}
+
+ul.nav-column li {
+    background-color: #111;
+    cursor: pointer;
+}
+
+ul.nav-column li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.footer {
+    align-self: flex-end;
+    padding: 10px;
+    font-size: 10px;
+    color: #ccc;
 }
 
 a:link {
-	font-color:#ccc;
-	text-decoration:none;
+    color: #efebde;
+    text-decoration: none;
 }
 
 a:visited {
-	font-color:#ccc;
-	text-decoration:none;
+    color: #efebde;
+    text-decoration: none;
+}
+
+.vertical-flexbox {
+    display: flex;
+    flex-direction: column;
 }
