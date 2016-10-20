@@ -1,0 +1,59 @@
+.member-overview {
+    display: flex;
+    border-top: 1px solid #ffb7b7;
+}
+
+.member-overview:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.member-summary-header,
+.member-summary-header .expander-label {
+    height: 40px;
+}
+
+.member-summary-header {
+    display: flex;
+    flex-grow: 1;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+    align-items: baseline;
+    color: #ffb7b7;
+}
+
+.member-summary {
+    padding-left: 20px;
+}
+
+.member-summary-header > *:not(:last-child) {
+    margin-right: 50px;
+}
+
+.member-pic {
+    height: 150px;
+    min-height: 150px;
+    width: 150px;
+    min-width: 150px;
+    display: block;
+}
+
+.member-pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.member-stats .stat {
+    display: flex;
+}
+
+.member-stats .stat:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.member-stats .stat .stat-label {
+    margin-right: 10px;
+}
+
+.member-stats .stat .stat-value {
+    color: efebde;
+}

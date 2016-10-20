@@ -22,7 +22,6 @@ body {
 
 .main-container .content {
     padding: 20px;
-    padding-bottom: 0px;
 }
 
 ul.nav-column li:first-child {
@@ -96,43 +95,6 @@ a:visited {
     margin-right: 50px;
 }
 
-.member-overview {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.member-summary {
-    display: flex;
-    flex-grow: 1;
-    padding: 5px 0;
-    border-bottom: 1px solid;
-    margin-bottom: 5px;
-    align-items: flex-end;
-    color: #ffb7b7;
-}
-
-.member-summary > *:not(:last-child) {
-    margin-right: 50px;
-}
-
-.member-name {
-    font-size: 24px;
-}
-
 .tidbit {
     font-size: 14px;
-}
-
-.member-pic {
-    height: 150px;
-    min-height: 150px;
-    width: 150px;
-    min-width: 150px;
-    display: block;
-    margin-right: 20px;
-}
-
-.member-pic img {
-    height: 100%;
-    width: 100%;
 }

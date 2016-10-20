@@ -1,0 +1,38 @@
+.mouseover-expander {
+    position: relative;
+    cursor: default;
+}
+
+.mouseover-expander .expander-content {
+    position: absolute;
+    background-color: #69615b;
+    box-shadow: 5px 5px 10px #69615b;
+    white-space: nowrap;
+}
+
+.mouseover-expander .expander-label {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.mouseover-expander:not(:hover) .expander-content {
+    display: none;
+}
+
+.mouseover-expander .expander-content {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+
+.mouseover-expander .expander-label i.fa.fa-caret-right {
+    margin-right: 10px;
+}
+
+.mouseover-expander:hover .expander-label i.fa.fa-caret-right {
+    transform: rotate(90deg);
+    transition-duration: .25s;
+    margin-left: 5px;
+}
