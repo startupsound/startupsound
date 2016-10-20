@@ -98,7 +98,7 @@ a:visited {
 
 .member-overview {
     display: flex;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .member-summary {
@@ -123,9 +123,16 @@ a:visited {
     font-size: 14px;
 }
 
-img.member-pic {
-    width: 150px;
+.member-pic {
     height: 150px;
+    min-height: 150px;
+    width: 150px;
+    min-width: 150px;
     display: block;
     margin-right: 20px;
+}
+
+.member-pic img {
+    height: 100%;
+    width: 100%;
 }
