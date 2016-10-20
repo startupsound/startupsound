@@ -10,7 +10,7 @@ body {
 }
 
 .size-setter {
-    min-width: 1000px;
+    width: 1000px;
     margin: 20px;
 }
 
@@ -43,7 +43,6 @@ ul.nav-column li i {
 
 ul.nav-column li.selected {
     background-color: #826a58;
-    border-right: 1px solid black;
     cursor: default;
 }
 
@@ -54,6 +53,7 @@ ul.nav-column li:not(.selected):hover {
 ul.nav-column li {
     background-color: #111;
     cursor: pointer;
+    border-right: 1px solid #111;
 }
 
 ul.nav-column li a {
@@ -78,7 +78,52 @@ a:visited {
     text-decoration: none;
 }
 
+.flexbox {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
 .vertical-flexbox {
     display: flex;
     flex-direction: column;
+}
+
+.spaced-children > *:not(:last-child) {
+    margin-right: 50px;
+}
+
+.member-overview {
+    display: flex;
+}
+
+.member-summary {
+    display: flex;
+    flex-grow: 1;
+    padding: 5px 0;
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+    align-items: flex-end;
+    color: #ffb7b7;
+}
+
+.member-summary > *:not(:last-child) {
+    margin-right: 50px;
+}
+
+.member-name {
+    font-size: 24px;
+}
+
+.tidbit {
+    font-size: 14px;
+}
+
+img.member-pic {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-right: 20px;
 }
