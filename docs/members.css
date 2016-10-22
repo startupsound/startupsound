@@ -21,6 +21,10 @@
     color: #ffb7b7;
 }
 
+.member-name {
+    font-size: 24px;
+}
+
 .member-summary {
     padding-left: 20px;
 }
@@ -41,20 +45,4 @@
 .member-pic img {
     max-width: 100%;
     height: auto;
-}
-
-.member-stats .stat {
-    display: flex;
-}
-
-.member-stats .stat:not(:last-child) {
-    margin-bottom: 10px;
-}
-
-.member-stats .stat .stat-label {
-    margin-right: 10px;
-}
-
-.member-stats .stat .stat-value {
-    color: efebde;
 }

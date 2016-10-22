@@ -1,5 +1,5 @@
 body {
-    font-family: 'Droid Sans', 'Segoe', 'Arial';
+    font-family: 'Segoe', 'Droid Sans', 'Arial';
     font-weight: lighter;
     background-color: #524040;
     background-image: url("img/low-contrast-linen.png");
@@ -7,6 +7,11 @@ body {
     display: flex;
     justify-content: center;
     min-width: 980px;
+}
+
+@font-face {
+    font-family: 'Segoe';
+    src: url('fonts/SegoeUi.ttf');
 }
 
 .size-setter {
@@ -93,6 +98,10 @@ a:visited {
 
 .spaced-children > *:not(:last-child) {
     margin-right: 50px;
+}
+
+.stat-label {
+    color: #ffb7b7;
 }
 
 .tidbit {

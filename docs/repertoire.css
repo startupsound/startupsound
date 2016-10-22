@@ -1,0 +1,29 @@
+.song-name {
+    display: flex;
+    flex-grow: 1;
+    align-items: baseline;
+    color: #ffb7b7;
+}
+
+.songs-list {
+    border: 1px solid #ffb7b7;
+    padding: 0 10px;
+}
+
+.song-summary-header {
+    display: flex;
+    align-items: center;
+}
+
+.song-summary-header > *:not(:last-child) {
+    margin-right: 10px;
+}
+
+.songs-list > *:not(:last-child) {
+    border-bottom: 1px solid #efebde;
+}
+
+.song-summary-header,
+.song-summary-header .expander-label {
+    height: 30px;
+}

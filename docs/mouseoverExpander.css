@@ -6,12 +6,11 @@
 .mouseover-expander .expander-content {
     position: absolute;
     background-color: #69615b;
-    box-shadow: 5px 5px 10px #69615b;
+    box-shadow: 3px 3px 3px #666;
     white-space: nowrap;
 }
 
 .mouseover-expander .expander-label {
-    font-size: 24px;
     display: flex;
     align-items: center;
 }
@@ -25,6 +24,8 @@
     border-right: 1px solid;
     border-bottom: 1px solid;
     padding: 10px;
+    z-index: 2;
+    margin-left: -1px;
 }
 
 .mouseover-expander .expander-label i.fa.fa-caret-right {
@@ -35,4 +36,20 @@
     transform: rotate(90deg);
     transition-duration: .25s;
     margin-left: 5px;
+}
+
+.stat {
+    display: flex;
+}
+
+.stat:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.stat .stat-label {
+    margin-right: 10px;
+}
+
+.stat .stat-value {
+    color: efebde;
 }
