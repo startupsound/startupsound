@@ -8,11 +8,18 @@
 .songs-list {
     border: 1px solid #ffb7b7;
     padding: 0 10px;
+    width: 450px;
+}
+
+.songs-list-holder {
+    display: flex;
+    justify-content: space-between;
 }
 
 .song-summary-header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .song-summary-header > *:not(:last-child) {
