@@ -46,3 +46,19 @@
     max-width: 100%;
     height: auto;
 }
+
+span.a {
+    color: #a9daa9;
+}
+
+span.b {
+    color: #a2a2ff;
+}
+
+span.c {
+    color: #c9d07d;
+}
+
+span.d {
+    color: pink;
+}
