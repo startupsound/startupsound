@@ -9,6 +9,7 @@
     border: 1px solid #000;
     padding: 0 10px;
     width: 450px;
+    background-color: #fafafa;
 }
 
 .songs-list-holder {
@@ -27,7 +28,7 @@
 }
 
 .songs-list > *:not(:last-child) {
-    border-bottom: 1px solid #efebde;
+    border-bottom: 1px solid #000;
 }
 
 .song-summary-header,

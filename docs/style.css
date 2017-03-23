@@ -36,7 +36,7 @@ h1 {
     padding: 20px;
 }
 
-.main-container img {
+.main-container .large-image img {
     width:50%;
 }
 
@@ -62,18 +62,22 @@ ul.nav-column li i {
     font-size: 12px;
 }
 
+ul.nav-column li.selected a{
+    cursor:default;
+}
 ul.nav-column li.selected {
     text-decoration:underline;
+    cursor: default;
 }
 
 ul.nav-column li:not(.selected):hover {
-    background-color: #666;
+    background-color: #efefef;
+    border-radius: 8px;
 }
 
 ul.nav-column li {
     background-color: #fff;
     color:#000;
-    cursor: pointer;
 }
 
 ul.nav-column li a {
@@ -123,7 +127,7 @@ a:visited {
 }
 
 .stat-label {
-    color: #ffb7b7;
+    color: #333333;
 }
 
 .tidbit {

@@ -27,6 +27,7 @@
 
 .member-summary {
     padding-left: 20px;
+    text-align: left;
 }
 
 .member-summary-header > *:not(:last-child) {
@@ -48,17 +49,17 @@
 }
 
 span.a {
-    color: #a9daa9;
+    color: #3f9a3f;
 }
 
 span.b {
-    color: #a2a2ff;
+    color: #1f1fc1;
 }
 
 span.c {
-    color: #c9d07d;
+    color: #f9b103;
 }
 
 span.d {
-    color: pink;
+    color: #d80429;
 }

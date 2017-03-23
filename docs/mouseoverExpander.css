@@ -5,27 +5,25 @@
 
 .mouseover-expander .expander-content {
     position: absolute;
-    background-color: #69615b;
-    box-shadow: 3px 3px 3px #666;
+    background: linear-gradient(0deg, #efefef, #fafafa);
+    box-shadow: 3px 3px 5px #999;
     white-space: nowrap;
-}
-
-.mouseover-expander .expander-label {
-    display: flex;
-    align-items: center;
-}
-
-.mouseover-expander:not(:hover) .expander-content {
-    display: none;
-}
-
-.mouseover-expander .expander-content {
     border-left: 1px solid;
     border-right: 1px solid;
     border-bottom: 1px solid;
     padding: 10px;
     z-index: 2;
     margin-left: -1px;
+}
+
+.mouseover-expander .expander-label {
+    display: flex;
+    align-items: center;
+    z-index: 3;
+}
+
+.mouseover-expander:not(:hover) .expander-content {
+    display: none;
 }
 
 .mouseover-expander .expander-label i.fa.fa-caret-right {
@@ -51,5 +49,5 @@
 }
 
 .stat .stat-value {
-    color: #efebde;
+    color: #07259c;
 }
